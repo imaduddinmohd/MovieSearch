@@ -1,0 +1,206 @@
+<html>
+<head>
+    <title>Just Watch</title> 
+    <link rel="stylesheet" href="styling.css">
+    <script src="scriptjs.js"></script> 
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"></script>
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="overlay"></div>
+            <div class="navbar_brand">
+                <img src="https://www.justwatch.com/appassets/img/logo/JustWatch-logo-large.png" alt="">
+            </div>
+            <div class="navbar_nav_items">
+                <div class="navbar_nav_item">
+                    <p>Menu</p>
+                </div> 
+                <div class="navbar_nav_item">
+                    <p>Popular</p>
+                </div>
+                <div class="navbar_nav_item">
+                    <div class="input_container">
+                        <div class="search_icon_container">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div> 
+                        <input class="input" type="text" placeholder="Search for movies or Tv Shows">
+                    </div>
+                </div> 
+                <div class="navbar_nav_item">
+               <button id="btn" onclick="onSearch()" class="button" >Search</button> 
+                </div>
+                
+            </div>
+        </nav>
+    </header> 
+
+    <main>
+        <div class="hero_container">
+            <div class="hero_bg_image_container">
+                <img class="hero_bg_image" src="https://www.justwatch.com/appassets/img/home/bg-tiles/bg-tiles.png" alt="">
+            </div>
+            <div class="hero_card_container">
+                <div class="hero_card">
+                    <h1 class="hero_title">All your streaming searches in one app.</h1>
+                    <p class="hero_description">End to your hectic searches for Movies and Tv shows on Netflix, Amazon Prime, Hotstar and many more. </p>
+                    <div class="button_container">
+                        <button class="discover_button">
+                            Discover Movies and Tv Shows
+                        </button>
+                        <button class="features_button">Features</button>
+                    </div>
+                </div>
+                <div class="hero_card hero_card_image_container_edit">
+                    <div class="hero_card_image_container ">
+                        <img src="https://www.justwatch.com/appassets/img/home/tv/tv.webp" alt="" class="hero_card_image">
+                    </div> 
+                    <div class="inside_tv_container">
+                        <div class="upper_container">
+                            <div class="image_container">
+                                <img class="image_container_image" src="https://www.justwatch.com/images/poster/256331954/s166/spider-man-no-way-home.webp" alt="">
+                            </div> 
+                            <div class="image_container">
+                                <img class="image_container_image" src="https://www.justwatch.com/images/poster/249962156/s166/k-g-f-chapter-2.webp" alt="">
+                            </div>
+                            <div class="image_container">
+                                <img class="image_container_image" src="https://www.justwatch.com/images/poster/94164735/s166/k-g-f-chapter-1.webp" alt="">
+                            </div>
+                            <div class="image_container">
+                                <img class="image_container_image" src="https://www.justwatch.com/images/poster/253599997/s166/the-batman.webp" alt="">
+                            </div>
+                            <div class="image_container">
+                                <img class="image_container_image" src="https://images.justwatch.com/poster/268620854/s166/roudram-ranam-rudhiram.webp" alt="">
+                            </div>
+                        </div>
+                        <div class="lower_container">
+                            <div class="image_container">
+                                <img class="image_container_image" src="https://images.justwatch.com/poster/242508924/s166/gangubai-kathiawadi.webp" alt="">
+                            </div> 
+                            <div class="image_container">
+                                <img class="image_container_image" src="https://images.justwatch.com/poster/262155578/s166/uncharted.webp" alt="">
+                            </div>
+                            <div class="image_container">
+                                <img class="image_container_image" src="https://www.justwatch.com/images/poster/269214969/s166/tokyo-vice.webp" alt="">
+                            </div>
+                            <div class="image_container">
+                                <img class="image_container_image" src="https://www.justwatch.com/images/poster/270223442/s166/beast-2022.webp" alt="">
+                            </div>
+                            <div class="image_container">
+                                <img class="image_container_image" src="https://www.justwatch.com/images/poster/264516782/s166/severance.webp" alt="">
+                            </div>
+                            <div class="image_container">
+                                <img class="image_container_image" src="https://www.justwatch.com/images/poster/141624456/s166/apharan.webp" alt="">
+                            </div>
+            
+                        </div>
+                    </div>
+            
+                    
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="hero_card_container2">
+            <div class="hero_card hero_card_2">
+                <h1 class="hero_title hero_title_2">Your Search Buddy!</h1>
+                <p class="hero_description hero_description_2">Your streaming guide </p>
+                <p class="hero_description hero_description_2">Get personal recommendations and see what’s new across your favorite streaming services. </p>
+                <!-- <div class="button_container">
+                    <button class="discover_button">
+                        Discover Movies and Tv Shows
+                    </button>
+                    <button class="features_button">Features</button>
+                </div> -->
+            </div>
+            <div class="hero_card hero_card_image_container_edit">
+                <div class="hero_card_image_container hero_card_image_container_2">
+                    <img src="https://www.justwatch.com/appassets/img/home/recommendations/recommendations.png" alt="" class="hero_card_image hero_card_image_2">
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="hero_card_container hero_card_container2 hero_card_container_3">
+            <div class="hero_card hero_card_2">
+                <h1 class="hero_title hero_title_2">Your Search Buddy!</h1>
+                <p class="hero_description hero_description_2">Your streaming guide </p>
+                <p class="hero_description hero_description_2">Get personal recommendations and see what’s new across your favorite streaming services. </p>
+                <!-- <div class="button_container">
+                    <button class="discover_button">
+                        Discover Movies and Tv Shows
+                    </button>
+                    <button class="features_button">Features</button>
+                </div> -->
+            </div>
+            <div class="hero_card hero_card_image_container_edit">
+                <div class="hero_card_image_container hero_card_image_container_2 hero_card_image_container_3">
+                    <img src="https://www.justwatch.com/appassets/img/home/search/search.png" alt="" class="hero_card_image hero_card_image_2 hero_card_image_3">
+                </div>
+            </div>
+        </div> 
+
+
+        <!-- <div class="inside_tv_container">
+            <div class="upper_container">
+                <div class="image_container">
+                    <img class="image_container_image" src="https://www.justwatch.com/images/poster/256331954/s166/spider-man-no-way-home.webp" alt="">
+                </div> 
+                <div class="image_container">
+                    <img class="image_container_image" src="https://www.justwatch.com/images/poster/256331954/s166/spider-man-no-way-home.webp" alt="">
+                </div>
+                <div class="image_container">
+                    <img class="image_container_image" src="https://www.justwatch.com/images/poster/256331954/s166/spider-man-no-way-home.webp" alt="">
+                </div>
+                <div class="image_container">
+                    <img class="image_container_image" src="https://www.justwatch.com/images/poster/256331954/s166/spider-man-no-way-home.webp" alt="">
+                </div>
+                <div class="image_container">
+                    <img class="image_container_image" src="https://www.justwatch.com/images/poster/256331954/s166/spider-man-no-way-home.webp" alt="">
+                </div>
+            </div>
+            <div class="lower_container">
+                <div class="image_container">
+                    <img class="image_container_image" src="https://www.justwatch.com/images/poster/256331954/s166/spider-man-no-way-home.webp" alt="">
+                </div> 
+                <div class="image_container">
+                    <img class="image_container_image" src="https://www.justwatch.com/images/poster/256331954/s166/spider-man-no-way-home.webp" alt="">
+                </div>
+                <div class="image_container">
+                    <img class="image_container_image" src="https://www.justwatch.com/images/poster/256331954/s166/spider-man-no-way-home.webp" alt="">
+                </div>
+                <div class="image_container">
+                    <img class="image_container_image" src="https://www.justwatch.com/images/poster/256331954/s166/spider-man-no-way-home.webp" alt="">
+                </div>
+                <div class="image_container">
+                    <img class="image_container_image" src="https://www.justwatch.com/images/poster/256331954/s166/spider-man-no-way-home.webp" alt="">
+                </div>
+                <div class="image_container">
+                    <img class="image_container_image" src="https://www.justwatch.com/images/poster/256331954/s166/spider-man-no-way-home.webp" alt="">
+                </div>
+
+            </div>
+        </div> -->
+
+
+
+
+    </main>
+    
+    <footer></footer>
+</body> 
+
+</html>

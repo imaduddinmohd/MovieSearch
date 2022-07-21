@@ -1,0 +1,112 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box; 
+   
+}
+
+.navbar{
+    margin:0px;
+    padding:10px 30px 10px 30px; 
+   
+} 
+.overlay
+{  
+    position:absolute;
+   background-color: black; 
+   top:-10; 
+   margin:0;
+}
+
+.search_hero_container
+{
+    
+    position: relative;
+    top:70px; 
+    
+}
+
+.search_hero_poster_container
+{
+    width:100%;
+    height:100%;
+
+  
+   
+} 
+
+.search_hero_poster
+{
+    height:100%;
+    width:100%;
+    object-fit: contain; 
+   
+  
+   
+} 
+
+.search_info_hero_card
+{
+   width:70%; 
+   background-color: rgba(6, 13, 23,0.7); 
+   position: absolute;
+   top:45%;
+   left:15%;
+   display: flex;  
+   gap:20px;
+   padding: 20px; 
+   
+
+}
+
+.search_info_hero_image_container
+{
+   height:400px;
+    width:350px;
+    overflow: hidden; 
+  
+   
+} 
+
+.search_info_hero_image
+{
+    width:100%; 
+    height: 100%;
+    object-fit: contain;
+} 
+
+
+.search_info_left
+{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+#type,#cast,#year
+{
+    font-size:25px; 
+    color:#4c5a67;
+} 
+
+.search_info_right
+{
+   border-left:1px solid #1c252f; 
+   padding:70px 30px;
+}
+
+.hero_title
+{
+    font-size:45px; 
+    color:#78a6b8; 
+    margin-bottom:20px;
+} 
+
+.synopsis
+{
+    font-size:20px;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif; 
+    line-height: 0.7cm;
+    word-spacing: 3px;
+}

@@ -1,0 +1,88 @@
+<html>
+<head>
+    <title>Just Watch</title> 
+    <link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" href="search.css">
+    <script src="scriptjs.js"></script>  
+    <script src="search.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"></script>
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:wght@600&display=swap" rel="stylesheet"> 
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald:wght@300&display=swap" rel="stylesheet"> 
+</head>
+
+<body onload="onSearch()">
+    <header>
+        <nav class="navbar">
+            <div class="overlay"></div>
+            <div class="navbar_brand">
+                <img src="https://www.justwatch.com/appassets/img/logo/JustWatch-logo-large.png" alt="">
+            </div>
+            <div class="navbar_nav_items">
+                <div class="navbar_nav_item">
+                    <p>Menu</p>
+                </div> 
+                <div class="navbar_nav_item">
+                    <p>Popular</p>
+                </div>
+                <div class="navbar_nav_item">
+                    <div class="input_container">
+                        <div class="search_icon_container">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div> 
+                        <input class="input" type="text" placeholder="Search for movies or Tv Shows">
+                    </div>
+                </div> 
+                <div class="navbar_nav_item">
+                    <button class="button">Search</button>
+                </div>
+                
+            </div>
+        </nav>
+    </header> 
+ 
+
+        <main>
+            <section>
+                <div class="search_hero_container">
+                    <div class="search_hero_poster_container">
+                        <img class="search_hero_poster" src="https://images.justwatch.com/backdrop/30175747/s1440/season-1" alt="Image Not Found">
+                    </div> 
+                    <div class="search_info_hero_card"> 
+                        <div class="search_info_left">
+                        <div class="search_info_hero_image_container">
+                            <img class="search_info_hero_image" src="https://images.justwatch.com/poster/8634206/s592/season-1.webp" alt="Image Not Found">
+                        </div>  
+                        <p id="year">Year</p> 
+                        <p id="cast">Cast</p> 
+                        <p id="type">Type</p>
+                     
+                        </div> 
+
+
+                        <div class="search_info_right">
+                            <h1 class="hero_title">Peaky Blinders</h1> 
+                            <h2 class="synopsis"></h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+   
+    
+    <footer></footer>
+</body> 
+
+</html>

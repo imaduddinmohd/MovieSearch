@@ -1,0 +1,336 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    color:white;
+    background-color: #01050e;
+    position: relative; 
+   padding-left:20px;
+} 
+
+.navbar{
+    display:flex;
+    justify-content: space-between; 
+    padding:40px 40px 20px 40px;  
+    position:fixed;
+    top:10px; 
+    width:100%; 
+    z-index: 1000; 
+  
+}
+
+
+.overlay
+{
+    position: absolute; 
+    top:0px;
+    width: 100%;
+    height:70%; 
+    background-color: rgba(1, 5, 14,0.3); 
+     z-index: -10;
+
+   
+}
+
+.navbar_brand
+{
+    width:220px;
+    height:80px;
+    overflow:hidden;
+}
+.navbar_brand img
+{
+    width:100%;
+    object-fit: cover;
+}
+
+.navbar_nav_items
+{
+    color:#818387;
+    font-family: 'Roboto', sans-serif;
+   font-size:17px; 
+   display:flex; 
+   gap:20px;
+}
+
+
+
+.input_container
+{
+    width:650px;
+    height:35px;
+    background: #1c252f;
+    display:flex; 
+    
+} 
+
+.input
+{
+    width:100%; 
+   height:100%; 
+   background-color: transparent;
+   border:none; 
+    outline:none; 
+    color:white;
+}
+
+.search_icon_container
+{
+   padding:10px;
+}
+
+.search_icon_container i
+{
+    color:#7b7e82;
+} 
+
+.navbar_nav_item .button
+{
+    background:#1c252f;
+    color:white;
+    width:100px;
+    height:35px;
+    border:none;
+    cursor: pointer;
+    border-radius: 8px;
+    letter-spacing: 1px;
+
+}
+
+.navbar_nav_items p
+{
+    padding:7px;
+   
+}
+
+.hero_container
+{
+  margin-top:180px;
+}
+
+.hero_bg_image_container
+{
+    width:100%;
+    height:90%;
+    overflow:hidden;
+}
+
+.hero_bg_image
+{
+    width:100%;
+    height:90%;
+    object-fit: contain;
+} 
+
+.hero_card_container
+{
+    color:white;
+    position: absolute;
+    top:10px;
+   width:100%; 
+   display: flex; 
+   
+    
+} 
+
+.hero_card
+{
+    width:50%;
+    padding:30px 40px 30px 40px;
+   display: flex;
+   flex-direction: column; 
+   gap:40px;
+}
+
+
+
+.hero_title
+{
+    font-family: 'Arimo', sans-serif;
+    font-size:55px;
+} 
+
+.hero_description
+{
+    font-family: 'Arimo', sans-serif;
+    font-size:17px; 
+    color:#818387;
+}
+
+.discover_button
+{
+    width:300px;
+    height:55px;
+    font-size:19px;
+    font-weight: 500;
+    background: #fbc500;
+    border:none;
+    border-radius:8px; 
+    cursor:pointer;
+    margin-right:18px;
+} 
+
+.features_button
+{
+    height:55px;
+    width:180px;
+    background-color: transparent;
+    border-radius:8px;
+    border:1px solid #818387;
+    color:#818387;
+    font-size:17px;
+    cursor: pointer;
+}
+.features_button:hover{
+    opacity:0.8;
+}
+
+.hero_card_image_container
+{
+    width:100%;
+    height:100%;
+   overflow:hidden;
+   opacity:0.8; 
+  box-shadow: inset 10px 10px 15px 25px #000103,  -8px -8px 15px 25px #000103; 
+  
+} 
+
+.hero_card_image
+{
+    height:100%;
+    width:100%;
+    object-fit: contain; 
+   transform: scale(1.6,1.4);
+} 
+
+.hero_card_image_container_edit
+{
+ padding: 0;
+ 
+
+    
+}
+
+
+
+.hero_card_container2
+{
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+.hero_card_2
+{
+    padding:80px;
+    text-align: left;
+}
+
+
+
+
+.hero_title_2
+{
+    color:#fbc500;
+    font-size:25px;
+    
+}
+
+.hero_description_2
+{
+  font-size:25px;
+ 
+}
+
+.hero_card_image_container_2
+{
+    width: 100%;
+    height:600px;
+   
+   
+    position: relative; 
+    box-shadow: none; 
+    opacity: 1;
+}
+
+.hero_card_image_2
+{
+   transform: scale(1,1);
+    object-fit:contain;
+    position: absolute;
+    top:-80; 
+} 
+
+.hero_card_container_3
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.hero_card_image_container_3
+{
+    width:100%;
+    height:800px;
+   
+}
+
+.hero_card_image_3
+{
+    object-fit: contain;
+   height:100%;
+   width:100%; 
+} 
+
+.inside_tv_container
+{
+    background-color: black;
+    width:47%; 
+    height:340px; 
+    overflow: hidden; 
+    display:flex;
+    flex-direction: column;
+    gap:5px; 
+    position:absolute;
+    top:25;
+    right:2px;
+}
+
+.upper_container
+{
+    height:50%;
+    width:100%; 
+    display: flex; 
+    gap:5px;
+}
+.lower_container
+{
+    height:50%;
+  width: 120%;
+    display: flex;  
+ transform: translate(-10%);
+  gap:5px;
+ 
+} 
+
+.image_container
+{
+    width:20%;
+    height:100%;
+    overflow: hidden; 
+    border-radius:10px;
+} 
+
+.image_container_image
+{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    border-radius:0px;
+}
